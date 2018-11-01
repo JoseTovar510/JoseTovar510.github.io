@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1 {font-family: "Montserrat", sans-serif; background-color: black;}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+<body>
+
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+<br><br>
+<h1 style="color:white; margin-top:20px; text-align:center;">Mini Projects</h1>
+<br><br>
+<!-- Photo Grid -->
+<div class="w3-row" id="myGrid" style="margin-bottom:128px">
+  <div class="w3-third">
+    <img src="gltich.jpg" style="width:100%">
+    <img src="stereograph.jpg" style="width:100%">
+    <img src="anaglyph.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="storyboard.png" style="width:100%">
+    <img src="collage.jpg" style="width:100%">
+    <img src="https://i0.wp.com/hifadhiafrica.org/wp-content/uploads/2017/01/default-placeholder.png" style="width:100%">
+    <img src="https://i0.wp.com/hifadhiafrica.org/wp-content/uploads/2017/01/default-placeholder.png" style="width:100%">
+    <img src="https://i0.wp.com/hifadhiafrica.org/wp-content/uploads/2017/01/default-placeholder.png" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="illustrations.jpg" style="width:100%">
+    <img src="screenshot.png" style="width:100%">
+    <img src="https://i0.wp.com/hifadhiafrica.org/wp-content/uploads/2017/01/default-placeholder.png" style="width:100%">
+    <img src="https://i0.wp.com/hifadhiafrica.org/wp-content/uploads/2017/01/default-placeholder.png" style="width:100%">
+    <img src="https://i0.wp.com/hifadhiafrica.org/wp-content/uploads/2017/01/default-placeholder.png" style="width:100%">
+    <img src="https://i0.wp.com/hifadhiafrica.org/wp-content/uploads/2017/01/default-placeholder.png" style="width:100%">
+  </div>
+</div>
+
+<!-- Add Home link -->
+<a href="index.html" style="color:blue;">Home</a>
+<br><br><br><br>
+
+<!-- End Page Content -->
+</div>
+
+
+<script>
+// Toggle grid padding
+function myFunction() {
+    var x = document.getElementById("myGrid");
+    if (x.className === "w3-row") {
+        x.className = "w3-row-padding";
+    } else {
+        x.className = x.className.replace("w3-row-padding", "w3-row");
+    }
+}
+
+</script>
+
+</body>
+</html>
